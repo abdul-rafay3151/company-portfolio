@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>OSYS</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Google fonts - Roboto + Roboto Slab-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+  <!-- owl carousel-->
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+  <!-- animate.css-->
+  <link rel="stylesheet" href="vendor/animate.css/animate.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Leaflet CSS - For the map-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="favicon_io/osysF.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.css">
+  <link rel="stylesheet" href="./fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.min.css">
+
+
+  <style>
+    .socials {
+      padding: 1.5rem 0;
+      margin-left: -10%;
+    }
+
+    .socials ul li {
+      display: inline-block;
+      padding-right: 2px;
+    }
+
+    .socials .ico-circle {
+      height: 40px;
+      width: 40px;
+      font-size: 1.7rem;
+      border-radius: 50%;
+      line-height: 1.4;
+      margin: 0 15px 0 0;
+      box-shadow: 0 0 0 3px #0078ff;
+      transition: all 500ms ease;
+    }
+
+    .socials .ico-circle:hover {
+      background-color: #0078ff;
+      color: #fff;
+      box-shadow: 0 0 0 3px #cde1f8;
+      transition: all 500ms ease;
+    }
+
+    .list-ico span {
+      color: #0066ff;
+      margin-right: 10px;
+    }
+
+    @media (max-width: 500px) {
+      .hi {
+        width: 30%;
+        height: 30%;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Reference item-->
+  <!-- navbar-->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container"><a href="#intro" class="navbar-brand scrollTo">OSYS</a>
+        <button type="button" data-toggle="collapse" data-target="#navbarcollapse"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+        <div id="navbarcollapse" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+            <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Module</a></li>
+            <li class="nav-item"><a href="#references" class="nav-link link-scroll">Our Team</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Intro Image-->
+  <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;"
+    class="intro-section pb-2">
+    <div class="container text-center">
+      <!-- <div data-animate="fadeInDown" class="logo"><img src="img/OSYS.jpg" alt="logo"  class="image rounded-circle img-fluid"></div> -->
+      <h1 data-animate="fadeInDown" class="text-shadow mb-5">OSYS</h1>
+    </div>
+  </section>
+  <!-- About-->
+  <section id="about" class="about-section">
+    <div class="container">
+      <header class="text-center">
+        <h2 data-animate="fadeInDown" class="title">About Company</h2>
+      </header>
+      <div class="row">
+        <div data-animate="fadeInUp" class="col-lg-6">
+          <p style="text-decoration: underline black;" ><strong>Who We Are</strong></p>
+
+          <p>Group of Experienced Technical Developers having sound grip on platfrom like Developement in Oracle Forms and Reports. Oracle Apex and Oracle Business Intelligence Dashboards.</p>
+
+          <p style="text-decoration: underline black;" ><strong>About Us</strong></p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">OSYS is an IT company founded in 2019</li>
+            <li class="list-group-item">Located Head Office in Karachi, Pakistan</li>
+            <li class="list-group-item">Sites in UAE, Saudia, Cananda</li>
+          </ul>
+        </div>
+        <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/OSYS.jpg"
+            alt="" class="image rounded-circle img-fluid"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Service-->
+  <section id="services" class="bg-gradient services-section">
+    <div class="container">
+      <header class="text-center">
+        <h2 data-animate="fadeInDown" class="title">Services</h2>
+      </header>
+      <div class="row services text-center">
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <h3 class="heading mb-3 text-400">Industry Specific OSYS SOlutions</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <h3 class="heading mb-3 text-400">Customized Module Development(System Enhancement)</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <h3 class="heading mb-3 text-400">Oracle Forms and Reports Building </h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <h3 class="heading mb-3 text-400">Oracle ERP Functional and Technical Trainings</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <h3 class="heading mb-3 text-400">Oracle ESB Implementation and Support</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <h3 class="heading mb-3 text-400">Oracle Application Express Portals(Apex)</h3>
+        </div>
+        <div data-animate="fadeInUp" class="col-lg-4">
+          <h3 class="heading mb-3 text-400">Oracle Business Intelligence Dashboard(OBIEE)</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modules-->
+  <section id="testimonials" class="testimonials-section bg-gray">
+    <div class="container">
+      <header class="text-center mb-2">
+        <h2 data-animate="fadeInUp" class="title">Modules<br></h2>
+        <!-- <p data-animate="fadeInUp" class="lead">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p> -->
+      </header>
+      <div id="raf">
+        <!-- style="padding-left: 20%;" -->
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item" style=" box-shadow: 5px -10px 5px rgba(0, 0, 0, 0.3)">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p style="text-align: center; font-size: 150%; text-decoration: underline;"><strong>OSYS Financials</strong></p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Payable Management</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Receivables Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Cash Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Fixed Assets Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Budget Management</p>
+              </div>
+            </div>
+          </li>
+          <li class="item" style=" box-shadow: 5px -10px 5px rgba(0, 0, 0, 0.3)">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p style="text-align: center;  font-size: 150%; text-decoration: underline;"><strong>OSYS Supply Chain</strong>
+                </p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Requisition Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Purchase Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Inventory Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Import And Export Document Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Sales Order Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Manufacturing(Work In Process)</p>
+              </div>
+            </div>
+          </li>
+          <li class="item" style=" box-shadow: 5px -10px 5px rgba(0, 0, 0, 0.3)">
+            <div class="testimonial full-height">
+              <div class="text" style="overflow:hidden;">
+                <p style="text-align: center;  font-size: 150%; text-decoration: underline;"><strong> OSYS HRMS & Payroll </strong></p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Employee Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Attendance Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Payroll Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Appraisal Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Leaves Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Recruitment Management</p>
+                <p class="lead" style="text-align: center;  font-size: 130%;">Travelling Management</p>
+
+              </div>
+            </div>
+          </li>
+
+          <li class="item" style=" box-shadow: 5px -10px 5px rgba(0, 0, 0, 0.3)">
+            <div data-animate="fadeInUp" class="testimonial full-height">
+              <div class="text" style="overflow:hidden;">
+                <h4 style="text-align: center; text-decoration: underline;"><strong>OSYS Industry Based</strong></h4>
+                <p style="text-align: center; font-size: 130%;"><strong> Laboratory Management </strong></p>
+                <p class="lead" style="text-align: center; font-size: 130%;">School Management</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Construction Management</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Hospital Management</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Real Estate Management</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Logistic Management</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Fire and Safety Management</p>
+                <p class="lead" style="text-align: center; font-size: 130%;">Restaurant Management</p>
+              </div>
+            
+            </div>
+      </div>
+      </li>
+
+    </div>
+  </section>
+<!-- <Our Team> -->
+  <section id="references">
+    <div class="container">
+      <div class="col-sm-12">
+        <div class="mb-5 text-center">
+          <h2 data-animate="fadeInUp" class="title">Our Team</h2>
+          <p data-animate="fadeInUp" class="lead text-left">Passionate It Professionals</p>
+          <p data-animate="fadeInUp" class="lead text-left">Functional ACCAs</p>
+        </div>
+        <!-- Reference detail-->
+    </div>
+  </section>
+
+<!-- <FOOTER> -->
+  <section class="paralax-mf footer-paralax bg-image sect-mt4 route bg-gray" style="background-image: url(img/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container" data-animate="fadeInUp">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="contact-mf">
+            <div id="contact" class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="title-box-2">
+                    <h5 class="title-left">
+                      Professional Profile
+                    </h5>
+                  </div>
+                  <div>
+                    <div class="socials">
+                      <ul>
+                        <li><a target="_blank" href="#"><img class="social-icon"
+                              alt="fiverr" src="img2/linkedin.png" style="width: 50px;"></a></li>
+                        <li><a target="_blank" href="#"><img class="social-icon"
+                              alt="fiverr" src="img2/facebooklogo.png" style="width: 80px;"></a></li>
+                        <li><a target="_blank" href="#"><img class="social-icon"
+                              alt="fiverr" src="img2/fiverr-1.png" style="width: 60px;"></a></li>
+                        <li><a target="_blank" href="#"><img class="social-icon"
+                              alt="fiverr" src="img2/githublogo.png" style="width: 80px;"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="title-box-2 pt-4 pt-md-0">
+                    <h5 class="title-left">
+                      Get in Touch
+                    </h5>
+                  </div>
+                  <div class="more-info">
+                    <p class="lead">
+
+                    </p>
+                    <ul class="list-ico" style="list-style: none; margin-left: -8%; margin-top: 5%;">
+                      <li><span><i class="fas fa-map-marker-alt"></i></span> Karachi, Pakistan</li>
+                      <li><span><i class="fas fa-phone"></i></span>+92 123456789</li>
+                      <li><span><i class="fas fa-envelope-square"></i></span>your comapny's mail@gmai.com</li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact-->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+          <p style="text-align: right;">© 2021 OSYS. All rights reserved.</p>
+        </div>
+      </div> 
+    </div>
+    </div>
+  </footer>
+  <!-- JavaScript files-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+  <script src="js/front.js"></script>
+</body>
+
+</html>
